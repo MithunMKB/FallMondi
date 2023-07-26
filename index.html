@@ -25,13 +25,39 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/825916e209.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="font-lato">
     <!-- Header Section Start -->
     <header>
-        <!-- Nav Bar Section -->
-      <nav>
-        
+      <!-- Nav Bar Section -->
+      <nav class="bg-[#F85559] rounded-full max-w-screen-xl mx-auto mt-[50px]">
+        <div class="navbar flex">
+          <div class="text-white text-xs flex-1 pl-[60px] flex justify-evenly pr-[60px]">
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Shop</a>
+            <a href="">All Fruits</a>
+          </div>
+          <div class="flex-1 navbar-center">
+            <img class="pr-4" src="./images/logo.png" alt="" />
+            <a class="text-white normal-case text-4xl">Fruit Burst</a>
+          </div>
+          <div class="flex-1 relative">
+            <input
+              class="input rounded-full w-full input-bordered max-w-xs text-[#121212]"
+              type="text"
+              placeholder="Search Here"
+            />
+            <i class="fa-solid fa-magnifying-glass absolute right-1/4"></i>
+           
+          </div>
+        </div>
       </nav>
     </header>
     <!-- Header Section End -->
